@@ -1,0 +1,61 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+#main-container .container {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: var(--light-gray);
+}
+
+.container hr {
+    width: 100%;
+    height: 0.5px;
+}
+
+.container .container-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 60%;
+    justify-content: center;
+}
+
+.container fieldset {
+    border: none;
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.container label {
+    font-size: 1.7rem;
+}
+
+.container button{
+    width:250px;
+    height:45px;
+
+    margin-bottom: 20px;
+}

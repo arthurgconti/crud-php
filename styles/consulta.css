@@ -1,0 +1,27 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+#main-container .container {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+table tr td:last-child {
+    width: 120px;
+}
